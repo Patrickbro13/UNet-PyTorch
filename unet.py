@@ -133,6 +133,6 @@ class UNet(nn.Module):
         return output
 
 
-model = UNet(retain_dim=True, out_size=(256, 256))
-noise = torch.randn(1, 3, 256, 256)
-print(model(noise).shape)
+# model = UNet(retain_dim=True, out_size=(256, 256))
+# noise = torch.randn(1, 3, 256, 256)
+# print(model(noise).shape)
